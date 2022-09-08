@@ -12,3 +12,9 @@ Windows Server Eval 2022
     ```shell
     Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
     ```
+
+3 Installed Forest and established AD name (Bussin.com)
+    ```shell
+    Import-Module ADDSDeployment
+    Install-ADDSForest
+    ```
