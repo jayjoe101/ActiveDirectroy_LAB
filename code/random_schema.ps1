@@ -16,12 +16,12 @@ $users = @()
 
 # Default UserCount set to 5 (if not set)
 if ( $UserCount -eq 0 ){
-    $UserCount = 5
+    $UserCount = 15
 }
 
 # Default GroupCount set to 5 (if not set)
 if ( $GroupCount -eq 0 ){
-    $GroupCount = 1
+    $GroupCount = 6
 }
 
 if ( $LocalAdminCount -ne 0){
