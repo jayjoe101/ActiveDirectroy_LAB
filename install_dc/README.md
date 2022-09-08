@@ -19,3 +19,18 @@ Windows Server Eval 2022
     Import-Module ADDSDeployment
     Install-ADDSForest
     ```
+
+4 Set DNS server IP back to Self
+
+    ```shell
+    Get-NetIPAddress
+    ```
+
+    Found Ethernet0 index
+
+    ```
+    Set-DnsClientServerAddress -InterfaceIndex (Index Value) -ServerAddresses (Static IP)
+    ```
+    
+    Note:
+        Can be done through Sconfig but chose to be cool
