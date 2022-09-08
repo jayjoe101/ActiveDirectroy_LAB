@@ -1,0 +1,32 @@
+{   
+    "domain": "Bussin.com",
+
+    "groups": [
+        {
+            "name": "Ordinary_Fellas"
+        },
+        {
+            "name": "HR_Fellas"
+        },
+        {
+            "name": "Administrative_Fellas"
+        }
+    ],
+
+    "users": [
+        {
+            "name": "Timmothy Pickles",
+            "password": "P@ssword123",
+            "groups": [
+                "Ordinary_Fellas"
+            ]
+        },
+        {
+            "name": "Steve Umbrella",
+            "password": "P@ssword234",
+            "groups": [
+                "Ordinary_Fellas"
+            ]
+        }
+    ]
+}
